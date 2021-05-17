@@ -62,7 +62,7 @@ object
 -subset signature(object = ".UD"): subsets the .UD/.UDStack object
 -split signature(object = ".UDStack"): splits a .UDStack into a list of .UD objects
 
-##This page seems like great resource, might not be much value in going through it now.
+##This page seems like great resource, might not be much value in going through it now. I will search for a relevant youtube video!
 
 
 
