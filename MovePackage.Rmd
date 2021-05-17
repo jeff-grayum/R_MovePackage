@@ -19,6 +19,7 @@ install.packages("move")
 library(move)
 ```
 
+Link to example: https://cran.r-project.org/web/packages/move/move.pdf
 
 -contains functions to access movement data stored in movebank
 -addresses ecological questions regarding movement
@@ -47,7 +48,21 @@ Plotting
 -image: plots the UD fitted to a window
 -contour: adds the contours of UD to a plot
 
+Methods
+-contour signature(object = ".UD"): adds a contour line to a plot, also for .UDStack
+-emd signature(object = ".UD"): quantifies similarity between utilization distributions, also for
+.UDStack
+-getVolumeUD signature(object = ".UD"): modifies the .UD/.UDStack raster
+-outerProbability signature(object = ".UD"): calculates the animal occurrence probabilities at the border of the raster (only for .UD class)
+-plot signature(object = ".UD"): plots the raster from a .UD/.UDStack object with re-size in- sensitive proportions
+-raster2contour signature(object = ".UD"): converts a raster to contour lines, also for .UD- Stack
+-show signature(object = ".UD"): displays summary the .UD/.UDStack object
+-summary signature(object=".UD"):summarizestheinformationoftherasterfroma.UD/.UDStack
+object
+-subset signature(object = ".UD"): subsets the .UD/.UDStack object
+-split signature(object = ".UDStack"): splits a .UDStack into a list of .UD objects
 
+##This page seems like great resource, might not be much value in going through it now.
 
 
 
