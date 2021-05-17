@@ -32,6 +32,22 @@ Calculation of the utilization distribution
 -brownian.bridge.dyn: calculates the occurrence distribution 
 -getVolumeUD: calculates Utilization distribution
 
+Accessing Values
+-bbox: bounding box of Move* object
+-coordinates: track-coordinates of a Move* object
+-extent: extent of Move* object
+-namesIndiv: names of a Move* object
+-n.locs:  the number of locations of a Move* object.
+-projection: the projection method of a Move* object or raster
+-timeLag: the time lags between locations of a Move* object
+-timeStamps: track time stamps of a Move* object
+
+Plotting
+-plot: plots utilization distribution or the track
+-image: plots the UD fitted to a window
+-contour: adds the contours of UD to a plot
+
+
 
 
 
